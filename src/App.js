@@ -22,7 +22,7 @@ class App extends Component{
     render(){
         return(
             <View>
-                <Header headerText = {'Test'}/>
+                <Header headerText = {'Authentication'}/>
                 <LoginForm/>
             </View>
         );
