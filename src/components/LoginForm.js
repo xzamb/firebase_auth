@@ -60,7 +60,7 @@ class LoginForm extends Component{
                 <CardSection/>
                     <Input
                         isSecureTextEntry = {false}
-                        placeholder = {'email'}
+                        placeholder = {'Email'}
                         value = {this.state.email}
                         onChangeText = {email => this.setState({ email })}
                         />
@@ -68,7 +68,7 @@ class LoginForm extends Component{
                 <CardSection>
                     <Input
                         isSecureTextEntry = {true}
-                        placeholder = {'password'}
+                        placeholder = {'Password'}
                         value = {this.state.password}
                         onChangeText = { password => this.setState({password})}
                     />
